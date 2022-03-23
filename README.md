@@ -1,11 +1,11 @@
 # Markov state model tutorial
 
-Toni Giorgino (IBF-CNR), www.giorginolab.it, for Prof. Camilloni's course at the University of Milan.
+Toni Giorgino (IBF-CNR), www.giorginolab.it, for Prof. Fuxreiter's course at the University of Padova.
 
-To preview the notebook code "live" with results, open it in Google Colab (or locally).
+To preview the notebooks' code "live" with results, open it in Google Colab (or locally).
 
-See also [this Colab notebook](https://colab.research.google.com/drive/1kRKqlwEYjg3vwybqkQfNIKfojeKbEZS9?usp=sharing) which
-  shows how to implement the same calculations in the [DeepTime](https://deeptime-ml.github.io/latest/index.html) library.
-  
-For different takes, see the [Markov-Tutorial-UniMi-2019](https://github.com/giorginolab/Markov-Tutorial-UniMi-2019) and
-  [Markov-Tutorial-BCN-2020](https://github.com/giorginolab/Markov-Tutorial-BCN-2020) repositories.
+The [Analysis for HTMD](https://software.acellera.com/docs/latest/htmd/userguide/analysing.html) page 
+contains tutorials using actual large-scale simulation data and the HTMD library (note that it 
+takes 30'-1h to install, download data, and run the analysis).
+
+For different takes on the computation, see repositories with earlier editions of the class.
