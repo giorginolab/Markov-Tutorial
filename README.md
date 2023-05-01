@@ -1,9 +1,8 @@
 # Markov state model tutorial
 
-Toni Giorgino (IBF-CNR), www.giorginolab.it, for Prof. Fuxreiter's course at the University of Padova.
+Toni Giorgino (IBF-CNR), www.giorginolab.it, for the MSI Classes of the UPF Master in Bioinformatics for Health Sciences.
 
-To preview the notebooks' code "live" with results, open it in Google Colab (or locally).
 
-Work in progress - please check again for the final version.
+* To preview the notebook code "live" with results, see [this repository](https://github.com/giorginolab/Markov-Tutorial-Data).
 
-For different takes on the computation, see repositories with earlier editions of the class.
+* For different takes, see previous issues of this course on GitHub.
