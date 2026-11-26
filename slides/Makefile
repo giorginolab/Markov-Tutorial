@@ -8,7 +8,8 @@
 # recompressed with Ghostscript (/screen preset, 72 dpi images).
 # GSQUALITY=/ebook gives a larger, sharper PDF (150 dpi).
 
-PPTX     := $(wildcard *.pptx)
+# PowerPoint prefixes its temporary lock files with ~$.
+PPTX     := $(filter-out ~$$%,$(wildcard *.pptx))
 PDF      := $(PPTX:.pptx=.pdf)
 GS       ?= gs
 GSQUALITY ?= /screen
@@ -16,7 +17,7 @@ GSQUALITY ?= /screen
 all: $(PDF)
 
 # Export at full size, recompress, then remove the intermediate.
-%.pdf: %.pptx support/pptx2pdf.applescript
+$(PDF): %.pdf: %.pptx support/pptx2pdf.applescript
 	osascript support/pptx2pdf.applescript "$(abspath $<)" "$(abspath $*.full.pdf)"
 	$(GS) -q -dNOPAUSE -dBATCH -dSAFER \
 	  -sDEVICE=pdfwrite -dCompatibilityLevel=1.6 \
