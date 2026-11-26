@@ -1,15 +1,17 @@
-# Markov State Model for Molecular Dynamics: Seminars and Tutorials
+# Markov State Model for Molecular Dynamics
+
+## Seminars and Tutorials
 
 Toni Giorgino (IBF-CNR), www.giorginolab.it.
 
-This repository tracks this seminar as taught at the Universities Pompeu Fabra, Padova, Milano and others, for various courses.
+This repository tracks the seminar as taught for various courses at the Universities Pompeu Fabra, Padova, Milano and others.
 
 To preview the notebooks' code "live" with results, open it in Google Colab (or locally).
 
 
 ## Editions
 
-The latest edition is 2025, University of Milan (slides only, the same deck as 2023 and 2024). The working tree of this repository (`main`) holds the most recent edition that includes the hands-on notebooks (2025, UniPd). Earlier editions are kept as tags; see [PAST_EDITIONS.md](PAST_EDITIONS.md).
+The working tree of this repository (`main`) holds the most recent edition  Earlier editions are kept as tags; see [EDITIONS.md](EDITIONS.md).
 
 ## Contents of `main`
 
