@@ -31,4 +31,10 @@ The latest edition is 2025, University of Milan ([`2025-UniMi`](../../tree/2025-
 
 To get an edition: `git checkout 2023-BCN`. Each tag is the final state of the original per-edition repository, which has since been merged here and deleted; the original fine-grained commits were squashed into one commit per edition. `2024-UniMi` and `2025-UniMi` record editions taught with the unchanged 2023 UniMi deck.
 
-Data files for the practicals are in [Markov-Tutorial-Data](https://github.com/giorginolab/Markov-Tutorial-Data).
+## Contents of `main`
+
+* `1_Markov_R_numerics`, `2_Markov_Python_Deeptime_basics`, `3_Markov_Python_Deeptime_MD`: the practical sessions (R and Python/DeepTime).
+* `MarkovFromScratch.ipynb`: R notebook on a 1-D trajectory (transition counts, implied timescales, eigenvectors). It reads `data/data1.csv.gz` and `data/data10.csv.gz`.
+* `data/`, `img/`: data files and figures used by the notebooks.
+
+The former `Markov-Tutorial-Data` repository has been merged here.
