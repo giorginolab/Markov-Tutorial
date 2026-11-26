@@ -1,10 +1,11 @@
-# Markov state model tutorial
+# Markov State Model for Molecular Dynamics: Seminars and Tutorials
 
-Toni Giorgino (IBF-CNR), www.giorginolab.it, for Prof. Fuxreiter's course at the University of Padova.
+Toni Giorgino (IBF-CNR), www.giorginolab.it.
+
+This repository tracks this seminar as taught at the Universities Pompeu Fabra, Padova, Milano and others, for various courses.
 
 To preview the notebooks' code "live" with results, open it in Google Colab (or locally).
 
-Work in progress - please check again for the final version.
 
 ## Editions
 
