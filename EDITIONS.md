@@ -17,8 +17,8 @@ The latest edition is 2025, University of Milan ([`2025-UniMi`](../../tree/2025-
 | [`2023-UniMi`](../../tree/2023-UniMi) | University of Milan | `2023-Markov-Tutorial-UniMi` |
 | [`2023-UniPD`](../../tree/2023-UniPD) | University of Padova | `2023-Markov-Tutorial-UniPD` |
 | [`2024-BCN`](../../tree/2024-BCN) | Master MSI, Barcelona | `2024-Markov-Tutorial-BCN` |
-| [`2024-UniMi`](../../tree/2024-UniMi) | University of Milan (slides only; deck unchanged from 2023) | `2024-Markov-Tutorial-UniMi` |
-| [`2025-UniMi`](../../tree/2025-UniMi) | University of Milan (slides only; deck unchanged from 2023) | `2025-Markov-Tutorial-UniMi` |
-| [`2025-UniPd`](../../tree/2025-UniPd) | University of Padova (slides and notebooks; same files as `main`) | `2025-Markov-Tutorial-UniPd` |
+| [`2024-UniMi`](../../tree/2024-UniMi) | University of Milan  | `2024-Markov-Tutorial-UniMi` |
+| [`2025-UniPd`](../../tree/2025-UniPd) | University of Padova  | `2025-Markov-Tutorial-UniPd` |
+| [`2025-UniMi`](../../tree/2025-UniMi) | University of Milan  | `2025-Markov-Tutorial-UniMi` |
 
 To get an edition: `git checkout 2023-BCN`. Each tag is the final state of the original per-edition repository, which has since been merged here and deleted; the original fine-grained commits were squashed into one commit per edition. `2024-UniMi` and `2025-UniMi` record editions taught with the unchanged 2023 UniMi deck.
